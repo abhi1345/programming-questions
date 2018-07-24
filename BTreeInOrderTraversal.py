@@ -27,5 +27,6 @@ class Solution:
             except AttributeError:
                 jsfadf = 0
         
-        pit(root) 
+        pit(root)
+        
         return cache
