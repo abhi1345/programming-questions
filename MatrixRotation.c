@@ -14,7 +14,6 @@ char** split_string(char*);
 // Complete the matrixRotation function below.
 void matrixRotation(int matrix_rows, int matrix_columns, int** matrix) {
 
-
 }
 
 int main() {
