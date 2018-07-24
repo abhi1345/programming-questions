@@ -15,7 +15,6 @@ def isPrime(n):
     primes.append(n)
     return True
     
-
     
 t = int(input().strip())
 for a0 in range(t):
