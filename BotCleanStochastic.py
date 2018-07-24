@@ -2,9 +2,7 @@
 
 def nextMove(posr, posc, board):
     if board[posr][posc] == 'd':
-        print("CLEAN")
-    
-    
+        print("CLEAN")     
     
     else:
         i = 0
@@ -25,8 +23,6 @@ def nextMove(posr, posc, board):
                         
                     else:
                         print("LEFT")
-
-
 
             i += 1
     
