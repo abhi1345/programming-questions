@@ -1,4 +1,5 @@
 #!/usr/bin/python
+
 def displayPathtoPrincess(n,grid):
     for x in grid:
         if 'm' in x:
