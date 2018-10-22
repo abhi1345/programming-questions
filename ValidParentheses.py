@@ -1,4 +1,6 @@
-def lsize(l):
+
+#Helper Function
+def listSize(l):
     return sum([len(x) for x in l])
     
 
@@ -28,4 +30,4 @@ class Solution:
             except IndexError:
                 return False
             
-        return lsize(stacks) == 0
+        return listSize(stacks) == 0
