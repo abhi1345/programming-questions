@@ -1,5 +1,6 @@
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
+        #largest product of contiguous subarray
         rev = nums[::-1]
         
         for i in range(1, len(nums)):
